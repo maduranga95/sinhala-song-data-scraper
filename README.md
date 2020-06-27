@@ -35,15 +35,17 @@ Go to `sinhalasongs` folder and run the following command.
 
 ## Scraped data 
 Following data will be scraped by the crawler.
-1. `url`: URL of the original lyric page
-2. `songName`: Name of the song
-3. `artist`: All the relevant artists
-4. `genre`: Genres of the song
-5. `lyricWriter`: Writers of the song
-6. `musicDirector`: Music directors of the song
-7. `key`: Key of the song
+
+1. `songName`: Name of the song
+2. `artist`: All the relevant artists
+3. `genre`: Genres of the song
+4. `lyric`: Lyrics with newline characters
+5. `views`: Views from original page for the song
+6. `lyricWriter`: Writers of the song
+7. `musicDirector`: Music directors of the song
 8. `beat`: Beat of the song
-9. `views`: Views from original page for the song
-10. `shares`: Shares from original page for the song
-11. `lyric`: Lyrics with newline characters
+9. `url`: URL of the original lyric page
+10. `key`: Key of the song
+11. `shares`: Shares from original page for the song
+
 
