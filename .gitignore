@@ -1,0 +1,5 @@
+/venv
+/sinhalalyrics/__pycache__/
+/sinhalalyrics/spiders/__pycache__/
+/sinhalalyrics/sinhala_lyrics.json
+translated_dict.pickle
