@@ -43,7 +43,7 @@ def translate_array(stringList):
 
 
 class Sinhalasong(scrapy.Spider):
-    name = 'sinhalasongbook_scraper'
+    name = 'ssbscraper'
     start_urls = ['https://sinhalasongbook.com/all-sinhala-song-lyrics-and-chords/?_page=' + str(i) for i in range(1,2)]            # max range(1, 23)
 
     def parse(self, response):

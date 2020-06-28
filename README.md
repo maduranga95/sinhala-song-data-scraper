@@ -28,10 +28,10 @@ ELASTICSEARCH_TYPE = 'items'
 ELASTICSEARCH_UNIQ_KEY = 'url'
 ```
 
-## Running the Crawler
+## Starting the scraping
 Go to `sinhalasongs` folder and run the following command.
 
-`scrapy crawl sinhalasongbook_scraper -o <filename>.json`
+`scrapy crawl ssbscraper -o <filename>.json`
 
 ## Scraped data 
 Following data will be scraped by the crawler.
